@@ -1,0 +1,50 @@
+.Form {    
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+
+    background-color: #f1e5e5;
+    border: 2px solid;
+
+    .error {
+        border: 1px solid red;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p {
+        display: flex;
+        justify-content: space-between;
+        width: 270px;
+        margin: 10px;
+        padding: 8px;
+
+        font-size: 20px;
+        font-weight: bold;
+
+        input {
+            padding: 5px 0;
+        }
+
+    }
+
+    button {
+        width: 100px;
+        padding: 5px 0;
+
+        font-size: 18px;
+        font-weight: bold;
+
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: rgb(77, 126, 77);
+
+        &:hover {
+            background-color: #6da57b;
+        }
+    }
+}

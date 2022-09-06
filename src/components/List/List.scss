@@ -1,0 +1,46 @@
+.List {
+    width: 1000px;
+    margin: 0 auto;
+    
+    border: 1px solid;
+    background-color: rgb(77, 126, 77);
+
+    div {
+        display: flex;
+    }
+
+    p {
+        width: 23.8%;
+        margin: 0;
+        padding: 5px;
+
+        text-align: center;
+        font-weight: bold;
+
+        border: 1px solid;
+
+        button {
+            width: 150px;
+            padding: 5px 0;
+
+            cursor: pointer;
+            font-weight: bold;
+            
+            background-color: red;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: rgb(243, 42, 42);
+            }
+        }
+    }
+
+    .loading {
+        width: 98.8%;
+        padding: 30px 5px;
+
+        font-size: 30px;
+
+        background-color: #7eb37e;
+    }
+}
